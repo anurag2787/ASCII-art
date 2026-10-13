@@ -1,0 +1,25 @@
+Title: Payment Gateway
+Artist: @porush
+Category: finance
+Description: How a Payment Gateway works.
+---
+
+       CARD              BANK
+    .--------.        .--------.
+    |  ****  |        |  $$$$  |
+    |  ****  |        |  $$$$  |
+    '---+----'        '---+----'
+        |                  |
+        v                  v
+   +---------------------------+
+   |      PAYMENT GATEWAY      |
+   |                           |
+   |  AUTH ---> VERIFY ---> OK |
+   |                           |
+   |       [ TRANSACTION ]     |
+   +-------------+-------------+
+                 |
+                 v
+           +-----------+
+           |  SUCCESS  |
+           +-----------+
